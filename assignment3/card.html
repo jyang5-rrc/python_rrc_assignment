@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module card</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">card</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cjocel%5Cdesktop%5Cterm3%5Cpython%5Cweek3%5Cassignment3-jiajia%20yang-improvement%5Ccard.py">c:\users\jocel\desktop\term3\python\week3\assignment3-jiajia yang-improvement\card.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="random.html">random</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="card.html#Card">Card</a>
+</dt><dt class="heading-text"><a href="card.html#Deck">Deck</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Card">class <strong>Card</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Card">Card</a>(suit,&nbsp;number)<br>
+&nbsp;<br>
+A&nbsp;playing&nbsp;card&nbsp;with&nbsp;a&nbsp;suit&nbsp;and&nbsp;a&nbsp;number<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Card-__init__"><strong>__init__</strong></a>(self, suit, number)</dt><dd><span class="code">__init__&nbsp;method&nbsp;for&nbsp;<a href="#Card">Card</a>&nbsp;class,&nbsp;takes&nbsp;suit&nbsp;and&nbsp;number&nbsp;as&nbsp;arguments,&nbsp;sets&nbsp;them&nbsp;as&nbsp;attributes,&nbsp;and&nbsp;prints&nbsp;a&nbsp;message&nbsp;to&nbsp;the&nbsp;console</span></dd></dl>
+
+<dl><dt><a name="Card-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><span class="code">__repr__&nbsp;method&nbsp;for&nbsp;<a href="#Card">Card</a>&nbsp;class,&nbsp;returns&nbsp;a&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;card,&nbsp;e.g.&nbsp;"Ace&nbsp;of&nbsp;Spades"</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>number</strong></dt>
+<dd><span class="code">Getter&nbsp;and&nbsp;setter&nbsp;method&nbsp;for&nbsp;number&nbsp;attribute,&nbsp;returns&nbsp;the&nbsp;number&nbsp;of&nbsp;the&nbsp;card,&nbsp;&nbsp;e.g.&nbsp;"Ace"</span></dd>
+</dl>
+<dl><dt><strong>suit</strong></dt>
+<dd><span class="code">Getter&nbsp;and&nbsp;setter&nbsp;method&nbsp;for&nbsp;suit&nbsp;attribute,&nbsp;returns&nbsp;the&nbsp;suit&nbsp;of&nbsp;the&nbsp;card</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Deck">class <strong>Deck</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">A&nbsp;deck&nbsp;of&nbsp;playing&nbsp;cards,&nbsp;<br>
+with&nbsp;a&nbsp;list&nbsp;of&nbsp;cards,&nbsp;and&nbsp;methods&nbsp;to&nbsp;<br>
+populate,&nbsp;shuffle,&nbsp;and&nbsp;deal&nbsp;cards,&nbsp;<br>
+and&nbsp;a&nbsp;__repr__&nbsp;method&nbsp;to&nbsp;return&nbsp;a&nbsp;string&nbsp;<br>
+representation&nbsp;of&nbsp;the&nbsp;deck,&nbsp;e.g.&nbsp;"<a href="#Deck">Deck</a>&nbsp;of&nbsp;52&nbsp;cards"<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Deck-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">__init__&nbsp;method&nbsp;for&nbsp;<a href="#Deck">Deck</a>&nbsp;class,&nbsp;creates&nbsp;an&nbsp;empty&nbsp;list&nbsp;of&nbsp;cards,&nbsp;and&nbsp;populates&nbsp;it&nbsp;with&nbsp;52&nbsp;cards</span></dd></dl>
+
+<dl><dt><a name="Deck-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><span class="code">__repr__&nbsp;method&nbsp;for&nbsp;<a href="#Deck">Deck</a>&nbsp;class,&nbsp;returns&nbsp;a&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;deck,&nbsp;e.g.&nbsp;"<a href="#Deck">Deck</a>&nbsp;of&nbsp;52&nbsp;cards"</span></dd></dl>
+
+<dl><dt><a name="Deck-deal"><strong>deal</strong></a>(self, no_of_cards)</dt><dd><span class="code">deals&nbsp;a&nbsp;number&nbsp;of&nbsp;cards&nbsp;from&nbsp;the&nbsp;deck,&nbsp;and&nbsp;returns&nbsp;them&nbsp;as&nbsp;a&nbsp;list,&nbsp;e.g.&nbsp;[Ace&nbsp;of&nbsp;Spades,&nbsp;2&nbsp;of&nbsp;Spades,&nbsp;3&nbsp;of&nbsp;Spades,&nbsp;...]</span></dd></dl>
+
+<dl><dt><a name="Deck-populate"><strong>populate</strong></a>(self)</dt><dd><span class="code">Populates&nbsp;the&nbsp;deck&nbsp;with&nbsp;52&nbsp;cards,&nbsp;one&nbsp;of&nbsp;each&nbsp;suit&nbsp;and&nbsp;number,&nbsp;e.g.&nbsp;Ace&nbsp;of&nbsp;Spades</span></dd></dl>
+
+<dl><dt><a name="Deck-shuffle"><strong>shuffle</strong></a>(self)</dt><dd><span class="code">Shuffles&nbsp;the&nbsp;deck&nbsp;of&nbsp;cards,&nbsp;using&nbsp;the&nbsp;random&nbsp;module,&nbsp;<br>
+and&nbsp;the&nbsp;shuffle&nbsp;method,&nbsp;which&nbsp;shuffles&nbsp;the&nbsp;list&nbsp;in&nbsp;place,&nbsp;<br>
+rather&nbsp;than&nbsp;returning&nbsp;a&nbsp;new&nbsp;list,&nbsp;and&nbsp;returns&nbsp;the&nbsp;shuffled&nbsp;list,&nbsp;<br>
+which&nbsp;is&nbsp;the&nbsp;deck&nbsp;of&nbsp;cards,&nbsp;e.g.&nbsp;[Ace&nbsp;of&nbsp;Spades,&nbsp;2&nbsp;of&nbsp;Spades,&nbsp;3&nbsp;of&nbsp;Spades,&nbsp;...],&nbsp;<br>
+but&nbsp;in&nbsp;a&nbsp;random&nbsp;order,&nbsp;e.g.&nbsp;[3&nbsp;of&nbsp;Clubs,&nbsp;7&nbsp;of&nbsp;Diamonds,&nbsp;2&nbsp;of&nbsp;Hearts,&nbsp;...],&nbsp;etc.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>deck</strong> = Deck of 52 cards</td></tr></table>
+</body></html>

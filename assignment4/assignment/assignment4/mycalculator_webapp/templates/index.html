@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href='/static/style.css' />
+    </head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Calculator </h1>
+            <p> This is a simple calculator for Max, Average and Standard Deviation.</p><br>
+        </div>
+        <div class="main">
+            <h2>Enter numbers and choose the calculate method:</h2>
+            <div class="hint">
+                <p>Enter numbers with space:
+                    <br>Example: 1 2 3 4 5
+                    <br>Example: 1.1 2.2 3.3 4.4 5.5
+                </p>
+                <p>Choose the alculate method from the drop-down list:
+                    <br>Max: the maximum of numbers
+                    <br>Average: the average of numbers.
+                    <br>Standard Deviation: the sample Standard Deviation of numbers, if number of numbers less than 2, Standard Deviation equal to 0. 
+                </p>
+            </div>
+            <form action="/calculate" method="post">
+                <label for="num1">Numbers:</label><br>
+                <textarea name="num1" rows="4" cols="50" placeholder="Example: 1 2 3 4 5" required></textarea>    
+                <br><br>
+                <label for="operator">Calculate:</label><br>
+                <select name="operator">
+                    <option value="all">All</option>
+                    <option value="Max">Max</option>
+                    <option value="avg">Average</option>
+                    <option value="stdDev">Standard Deviation</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Calculate" />
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>JIAJIAYANG.python - RRC 2023</p>
+    </div>
+    
+</body>
+</html>
